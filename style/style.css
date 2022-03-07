@@ -1,0 +1,137 @@
+ /* font */
+ @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  /* justify-content: end; */
+  /* align-content: end; */
+  font-size: 15px;
+  background-color: rgba(242, 242, 242, 0.77);
+  min-height: 100vh;
+  font-family: 'Fredoka', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  margin-top: 2rem;
+  width: 200px;
+}
+
+h1 {
+  padding-left: 0.5rem;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+label{
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.2rem;
+}
+
+/* form */
+
+#form_product {
+  position: relative;
+  width: 70%;
+  height: auto;
+  padding: 1.5rem;
+}
+
+#form_product fieldset {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.4rem;
+  padding: 2rem;
+}
+
+.price {
+  padding-left: 5rem;
+}
+
+.input_checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.form_group {
+  /* margin: 0 auto 1.25rem auto; */
+  padding: 0.25rem;
+}
+
+ /* button reutilizado */
+
+ #button_next {
+  font-size: 1.2rem;
+  display: block;
+  padding: 0.75rem;
+  /* margin-top: 1rem; */
+  margin-bottom: 2rem;
+  width: 20%;
+  border-radius: 3rem;
+  border: none;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
+}
+
+input:hover {
+  cursor: pointer;
+  color: white;
+  background-color: darkblue;
+}
+
+.next {
+  display: flex;
+  justify-content: end;
+  padding-right: 12rem;
+}
+
+/* footer */
+
+footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: grid;
+  font-size: 1.5rem;
+  padding: 4rem;
+  background-color: darkblue;
+}
+
+footer .container_footer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1.3rem;
+}
+
+footer .container_footer h3 {
+  position: relative;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.columns li {
+  position: relative;
+  list-style: none;
+  color: white;
+  display: inline-block;
+}

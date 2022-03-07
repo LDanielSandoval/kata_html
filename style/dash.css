@@ -1,0 +1,92 @@
+ /* font */
+ @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap');
+
+ * {
+   box-sizing: border-box;
+ }
+
+ html {
+   background-color: rgba(242, 242, 242, 0.77);
+   font-size: 15px;
+   font-family: 'Fredoka', sans-serif;
+ }
+
+ header {
+   text-align: center;
+ }
+
+ /* order */
+
+ .order_list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.order {
+  table-layout: fixed;
+  width: 80%;
+  border-collapse: collapse;
+  background-color: lightgray;
+}
+
+/* payment */
+
+.payments {
+  display: flex;
+  justify-content: space-around;
+}
+
+.payments_table {
+  table-layout: fixed;
+  width: 80%;
+  border-collapse: collapse;
+  background-color: lightgray;
+}
+ 
+/* inv */
+
+ .table_inv {
+   display: flex;
+   justify-content: space-around;
+ }
+
+ h3 {
+   text-align: center;
+ }
+
+ .inventario {
+   table-layout: fixed;
+   width: 40%;
+   border-collapse: collapse;
+   background-color: lightgray;
+ }
+
+ /* table style */
+
+ tbody tr:nth-child(odd) {
+  background-color: darkblue;
+  color: white;
+}
+
+ thead {
+   color: white;
+   background-color: darkcyan;
+  text-shadow: 1px 1px 1px black;
+ }
+
+ th {
+   letter-spacing: 0.1rem;
+ }
+
+ td{
+   letter-spacing: 0.1rem;
+   text-align: center;
+ }
+
+ th, td {
+   padding: 1.4rem;
+ }
+
+ .adornos_inv {
+   padding: 1rem;
+ }
